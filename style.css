@@ -1,0 +1,78 @@
+html {
+  background-color: #ffe5e5;
+}
+h2{
+    text-align: center;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playwrite {
+  font-family: "Playwrite BE VLG", cursive, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.upper-left-display {
+  border: 5px solid #a8df8e;
+  width: 200px;
+  height: 120px;
+  text-align: center;
+  color: black;
+  background-color: #f3fde8;
+  margin: 10px;
+}
+.heading-poem {
+  border: 5px solid #a8df8e;
+  width: 740px;
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  background-color: #f3fde8;
+  position: absolute;
+  right: 405px;
+  top: -12px;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20pt;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+  position: absolute;
+  right: 300px;
+  width: 300px;
+  height: 600px;
+}
+.slideshow-container {
+  width: 50%;
+  position: absolute;
+  left:650px;
+  margin: auto;
+}
+.fade {
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
